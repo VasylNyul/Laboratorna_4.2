@@ -12,9 +12,9 @@
 		1823057E270B5A1C00143DA0 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823057D270B5A1C00143DA0 /* Document.m */; };
 		18230580270B5A2000143DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1823057F270B5A2000143DA0 /* Assets.xcassets */; };
 		18230583270B5A2000143DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18230581270B5A2000143DA0 /* Main.storyboard */; };
-		18230586270B5A2000143DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230585270B5A2000143DA0 /* main.m */; };
 		18230591270B5A2100143DA0 /* Laboratorna_4_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230590270B5A2100143DA0 /* Laboratorna_4_2Tests.m */; };
 		1823059C270B5A2100143DA0 /* Laboratorna_4_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823059B270B5A2100143DA0 /* Laboratorna_4_2UITests.m */; };
+		182305AB270B5A4000143DA0 /* Laba_4_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182305A9270B5A4000143DA0 /* Laba_4_2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		1823057F270B5A2000143DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18230582270B5A2000143DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18230584270B5A2000143DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18230585270B5A2000143DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18230587270B5A2000143DA0 /* Laboratorna_4_2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_4_2.entitlements; sourceTree = "<group>"; };
 		1823058C270B5A2100143DA0 /* Laboratorna_4.2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_4.2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18230590270B5A2100143DA0 /* Laboratorna_4_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_4_2Tests.m; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		18230597270B5A2100143DA0 /* Laboratorna_4.2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_4.2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1823059B270B5A2100143DA0 /* Laboratorna_4_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_4_2UITests.m; sourceTree = "<group>"; };
 		1823059D270B5A2100143DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182305A9270B5A4000143DA0 /* Laba_4_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Laba_4_2.cpp; sourceTree = "<group>"; };
+		182305AA270B5A4000143DA0 /* Laba_4_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Laba_4_2.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		1823056A270B5A1C00143DA0 = {
 			isa = PBXGroup;
 			children = (
+				182305A9270B5A4000143DA0 /* Laba_4_2.cpp */,
+				182305AA270B5A4000143DA0 /* Laba_4_2.hpp */,
 				18230575270B5A1C00143DA0 /* Laboratorna_4.2 */,
 				1823058F270B5A2100143DA0 /* Laboratorna_4.2Tests */,
 				1823059A270B5A2100143DA0 /* Laboratorna_4.2UITests */,
@@ -112,7 +115,6 @@
 				1823057F270B5A2000143DA0 /* Assets.xcassets */,
 				18230581270B5A2000143DA0 /* Main.storyboard */,
 				18230584270B5A2000143DA0 /* Info.plist */,
-				18230585270B5A2000143DA0 /* main.m */,
 				18230587270B5A2000143DA0 /* Laboratorna_4_2.entitlements */,
 			);
 			path = Laboratorna_4.2;
@@ -264,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182305AB270B5A4000143DA0 /* Laba_4_2.cpp in Sources */,
 				1823057E270B5A1C00143DA0 /* Document.m in Sources */,
 				1823057B270B5A1C00143DA0 /* ViewController.m in Sources */,
-				18230586270B5A2000143DA0 /* main.m in Sources */,
 				18230578270B5A1C00143DA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
